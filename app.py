@@ -55,6 +55,6 @@ def signup():
         return render_template('signup.html',msg ='Password Miss match')
 
 if __name__ =='__main__':
-    app.run(port = 5000,debug = True)
+    app.run(port = 0.0.0.0,debug = False)
     print("welcome!!!!!!!!")
     
